@@ -2,8 +2,11 @@
         function init() {
             // Grab a reference to the dropdown select element
             var selector = d3.select("#selDataset");
-            document.body.style.backgroundColor = "orange";
-
+            document.body.style.backgroundColor = "purple";
+            //cd to the folder md12 then do python -m http.server to open html
+            //http://127.0.0.1:8000/Bacteria-Biodiversity-Analysis/index1.html
+            //http://127.0.0.1:8000/index1.html
+            //using powershell
 
             // Use the list of sample names to populate the select options
             d3.json("samples.json").then((data) => {
